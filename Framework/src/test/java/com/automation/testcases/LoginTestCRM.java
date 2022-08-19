@@ -21,7 +21,7 @@ public class LoginTestCRM extends BaseClass {
     @Test
 	public void loginApp() {
 		
-		
+		//New comment 3
 		logger=report.createTest("Login to SwagLabs");
     	
     	LoginPage loginPage=PageFactory.initElements(driver, LoginPage.class);
